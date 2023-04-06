@@ -119,6 +119,7 @@ const Category = () => {
             justify-between
             items-center
             overflow-x-auto
+            scrollbar-hide
         "
       >
         {categories.map(({ icon, description, label }) => (
