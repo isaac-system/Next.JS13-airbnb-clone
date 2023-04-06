@@ -91,6 +91,7 @@ const SearchModal = () => {
   }, [
     searchModal,
     guestCount,
+    location,
     roomCount,
     bathroomCount,
     dateRange,
